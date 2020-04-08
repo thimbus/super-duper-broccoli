@@ -1,4 +1,5 @@
 from os import popen, system
+from time import sleep
 
 README = """
 # super-duper-broccoli
@@ -36,14 +37,16 @@ if __name__ == "__main__":
         try:
             # checkout to branch and add branch name to README string
             system("git checkout {}".format(branch))
+            sleep(0.2)
             string += "### `{}`\n".format(branch)
 
             # read branch contents
             content = [item.lstrip().rstrip() for item in popen("dir /B").readlines()]
+            sleep(0.2)
 
             for item in content:
                 url = baseurl.format(branch, item)
-                string += "[{}/]({})\n".format(item, url)
+                string += "[{}]({})\n".format(item, url)
 
             string += "\n"
         except:
@@ -60,4 +63,3 @@ if __name__ == "__main__":
             f.truncate()
 
         print("done :)")
-
