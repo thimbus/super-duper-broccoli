@@ -11,14 +11,14 @@ Don't make changes to the master branch. All changes should go under your own br
 
 <!---->
 ### `Irene`
-[README.md/](https://github.com/DidacticDisco/super-duper-broccoli/blob/Irene/README.md)
-[sink.py/](https://github.com/DidacticDisco/super-duper-broccoli/blob/Irene/sink.py)
-[toaster.cmd/](https://github.com/DidacticDisco/super-duper-broccoli/blob/Irene/toaster.cmd)
+[LICENSE](https://github.com/DidacticDisco/super-duper-broccoli/blob/Irene/LICENSE)
+[names.txt](https://github.com/DidacticDisco/super-duper-broccoli/blob/Irene/names.txt)
+[README.md](https://github.com/DidacticDisco/super-duper-broccoli/blob/Irene/README.md)
 
 ### `Usha`
-[README.md/](https://github.com/DidacticDisco/super-duper-broccoli/blob/Usha/README.md)
-[sink.py/](https://github.com/DidacticDisco/super-duper-broccoli/blob/Usha/sink.py)
-[toaster.cmd/](https://github.com/DidacticDisco/super-duper-broccoli/blob/Usha/toaster.cmd)
+[LICENSE](https://github.com/DidacticDisco/super-duper-broccoli/blob/Usha/LICENSE)
+[names.txt](https://github.com/DidacticDisco/super-duper-broccoli/blob/Usha/names.txt)
+[README.md](https://github.com/DidacticDisco/super-duper-broccoli/blob/Usha/README.md)
 
 
 <!---->

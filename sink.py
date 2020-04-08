@@ -37,12 +37,12 @@ if __name__ == "__main__":
         try:
             # checkout to branch and add branch name to README string
             system("git checkout {}".format(branch))
-            sleep(0.2)
+            sleep(0.5)
             string += "### `{}`\n".format(branch)
 
             # read branch contents
             content = [item.lstrip().rstrip() for item in popen("dir /B").readlines()]
-            sleep(0.2)
+            sleep(0.5)
 
             for item in content:
                 url = baseurl.format(branch, item)
