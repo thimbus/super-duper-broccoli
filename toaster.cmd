@@ -1,5 +1,5 @@
 @echo off
-git pull origin
+git pull --all
 git pull origin master
 git add .
 git commit -m "(automated:a) update readme.md"
