@@ -1,0 +1,65 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  p {
+    font-family: Georgia, monospace;
+  }
+
+  header {
+    background-color: #444;
+    color: white;
+    Padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #about-us {
+    background-color: #444;
+    color: white;
+    Padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #video {
+    background-color: #444;
+    color: white;
+    Padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #vip {
+    background-color: #444;
+    color: white;
+    Padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
