@@ -35,8 +35,9 @@ if __name__ == "__main__":
 
     for branch in branches:
         try:
-            # checkout to branch and add branch name to README string
+            # checkout to branch, pull changes, and add branch name to README string
             system("git checkout {}".format(branch))
+            system("git pull origin {}".format(branch))
             sleep(0.5)
             string += "### `{}`\n".format(branch)
 
@@ -50,7 +51,7 @@ if __name__ == "__main__":
 
             string += "\n"
         except:
-            print("failed while iterating on {}".format(branch))
+            print("\n\nfailed while iterating on {}".format(branch))
             FAILED = True
             break
     
@@ -62,4 +63,4 @@ if __name__ == "__main__":
             f.write(README.format(string))
             f.truncate()
 
-        print("done :)")
+        print("\n\ndone :)")
