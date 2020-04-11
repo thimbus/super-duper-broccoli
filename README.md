@@ -12,8 +12,13 @@ Don't make changes to the master branch. All changes should go under your own br
 <!---->
 ### `Irene`
 [LICENSE](https://github.com/Thimbus/super-duper-broccoli/blob/Irene/LICENSE)
+[logo.jpg](https://github.com/Thimbus/super-duper-broccoli/blob/Irene/logo.jpg)
 [names.txt](https://github.com/Thimbus/super-duper-broccoli/blob/Irene/names.txt)
+[Product_Landing_Page.css](https://github.com/Thimbus/super-duper-broccoli/blob/Irene/Product_Landing_Page.css)
+[Product_Landing_Page.html](https://github.com/Thimbus/super-duper-broccoli/blob/Irene/Product_Landing_Page.html)
 [README.md](https://github.com/Thimbus/super-duper-broccoli/blob/Irene/README.md)
+[video.mp4](https://github.com/Thimbus/super-duper-broccoli/blob/Irene/video.mp4)
+[video.webm](https://github.com/Thimbus/super-duper-broccoli/blob/Irene/video.webm)
 
 ### `Usha`
 [LICENSE](https://github.com/Thimbus/super-duper-broccoli/blob/Usha/LICENSE)
