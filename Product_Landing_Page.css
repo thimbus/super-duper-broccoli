@@ -36,9 +36,12 @@ ul {
     flex-direction: column;
     align-items: center;
   }
+
+  body {
+    background-color: #444;
+  }
   
   #about-us {
-    background-color: #444;
     color: white;
     Padding: 80px;
     display: flex;
@@ -47,7 +50,6 @@ ul {
   }
 
   #video {
-    background-color: #444;
     color: white;
     Padding: 60px;
     display: flex;
@@ -56,7 +58,6 @@ ul {
   }
 
   #vip {
-    background-color: #444;
     color: white;
     Padding: 40px;
     display: flex;
