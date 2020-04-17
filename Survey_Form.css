@@ -1,0 +1,17 @@
+header{
+    text-align:center;
+}
+
+body {
+    font-family: 'Georgia', sans-serif;
+    background-color: rgb(218, 209, 209);
+    text-align:center;
+  }
+
+  form {
+    background-color: #cbcde6;
+    width: 750px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 60px;
+  }
