@@ -1,60 +1,64 @@
 <html>
-    <nav id="nav-bar">
-        <ul> 
-          <li><a href="#about-us" class="nav-link">ABOUT US</a></li>
-          <li><a href="#video" class="nav-link">DEMOS</a></li>
-          <li><a href="#vip" class="nav-link">VIP</a></li>
-        </ul>
-    </nav>
-    
-    <br><br>
-    
-    <header id="header"> 
-    <h1>HEYTEA</h1>
-    <img src="logo.jpg" alt="logo" id="header-img" class="image" width="300" height="300">
-    </header>
-
-    <br><br>
-
+<!-- <head> goes at the top -->
     <head>
         <link rel="stylesheet" type="text/css" href="Product_Landing_Page.css">
     </head>
 
+<!-- After <head>, put your <body> tag, and all you main html code goes inside that -->
+<!-- Remember to properly indent your code! It makes it easier to read! -->
     <body>
+
+        <nav id="nav-bar">
+            <ul> 
+                <li><a href="#about-us" class="nav-link">ABOUT US</a></li>
+                <li><a href="#video" class="nav-link">DEMOS</a></li>
+                <li><a href="#vip" class="nav-link">VIP</a></li>
+            </ul>
+        </nav>
+    
+        <br><br>
+    
+        <header id="header"> 
+            <h1>HEYTEA</h1>
+            <img src="logo.jpg" alt="logo" id="header-img" class="image" width="300" height="300">
+        </header>
+
+        <br><br>
         
-    <main>
-    <section id="about-us">
-        <h2>About Us</h2>
-    <p>HEYTEA is a popular beverage brand from China, pioneering the making of cheese tea. Combining traditional Chinese tea leaves with the exquisite western element of "cheese", our vision is to rejuvenate tea culture to deliver a brand new taste to our customers. </p>
-    <p>(HEYTEA | The Shoppes at Marina Bay Sands)</p>
-    </section>
+        <main>
+            <section id="about-us">
+                <h2>About Us</h2>
+                <p>HEYTEA is a popular beverage brand from China, pioneering the making of cheese tea. Combining traditional Chinese tea leaves with the exquisite western element of "cheese", our vision is to rejuvenate tea culture to deliver a brand new taste to our customers. </p>
+                <p>(HEYTEA | The Shoppes at Marina Bay Sands)</p>
+            </section>
 
-    <br><br>
+            <br><br>
 
-    <section id="video">
-    <h2>Demos</h2>
-    <video width="320" height="240" controls="controls">
-        <source src="video.mp4" type="video/mp4" />
-        <source src="video.webm" type="video/webm" />
-        <object data="video.mp4" width="480" height="360">
-          <embed width="320" height="240" src="video.swf" />
-        </object>
-      </video>
+            <section id="video">
+                <h2>Demos</h2>
+                <video width="320" height="240" controls="controls">
+                    <source src="video.mp4" type="video/mp4" />
+                    <source src="video.webm" type="video/webm" />
+                    <object data="video.mp4" width="480" height="360">
+                        <embed width="320" height="240" src="video.swf" />
+                    </object>
+                </video>
+            </section>
 
+            <br><br>
 
-    </section>
-
-    <br><br>
-
-    <section id="vip">
-        <h2>VIP Activity</h2>
-    <p>We are now having a lucky draw, you can earn cash coupons if you enter your email here.</p>
-        <form action="https://www.freecodecamp.com/email-submit">
-            <label for="email">Email address:</label><br>
-            <input type="email" id="email" name="email" required> <br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-    </main>
+            <section id="vip">
+                <h2>VIP Activity</h2>
+                <p>We are now having a lucky draw, you can earn cash coupons if you enter your email here.</p>
+                <form action="https://www.freecodecamp.com/email-submit">
+                    <label for="email">Email address:</label><br>
+                    <input type="email" id="email" name="email" required> <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
     </body>
 </html>
+
+<!-- One more small but important thing - always make sure there's an extra empty line at the end of your file. -->
+<!-- The extra line won't show up in GitHub, but it will show in VSCode when you edit the file! -->
