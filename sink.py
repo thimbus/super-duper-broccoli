@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
             for item in content:
                 url = baseurl.format(branch, item)
-                string += "[{}]({})\n".format(item, url)
+                string += "- [{}]({})\n".format(item, url)
 
             string += "\n"
         except:
