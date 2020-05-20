@@ -10,6 +10,15 @@ Don't make changes to the master branch. All changes should go under your own br
 ## Branches
 
 <!---->
+### `Herry`
+- [dist](https://github.com/thimbus/super-duper-broccoli/blob/Herry/dist)
+- [license.txt](https://github.com/thimbus/super-duper-broccoli/blob/Herry/license.txt)
+- [README.markdown](https://github.com/thimbus/super-duper-broccoli/blob/Herry/README.markdown)
+- [README.md](https://github.com/thimbus/super-duper-broccoli/blob/Herry/README.md)
+- [sink.py](https://github.com/thimbus/super-duper-broccoli/blob/Herry/sink.py)
+- [src](https://github.com/thimbus/super-duper-broccoli/blob/Herry/src)
+- [toaster.cmd](https://github.com/thimbus/super-duper-broccoli/blob/Herry/toaster.cmd)
+
 ### `Irene`
 - [LICENSE](https://github.com/thimbus/super-duper-broccoli/blob/Irene/LICENSE)
 - [logo.jpg](https://github.com/thimbus/super-duper-broccoli/blob/Irene/logo.jpg)
