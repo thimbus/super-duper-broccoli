@@ -27,7 +27,7 @@ if __name__ == "__main__":
     string = ""
 
     # baseurl for the hyperlinks
-    baseurl = "https://github.com/Thimbus/super-duper-broccoli/blob/{}/{}"
+    baseurl = "https://github.com/thimbus/super-duper-broccoli/blob/{}/{}"
 
     # get branches, excluding master
     branches = [branch.lstrip().rstrip() for branch in popen("git branch").readlines()]
