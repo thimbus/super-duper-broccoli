@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>🍉 Dynne | Sign In</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+	<div class="container">
+		<div id="toggle-theme">🌓</div>
+
+		<form class="border-primary">
+			<div id="formheading">
+				<h2>👋 Sign in to Dynne</h2>
+			</div>
+			<div id="formdata">
+				<input placeholder="Username">
+				<input type="password" placeholder="Password">
+				<button class="border-primary">Sign in</button>
+			</div>
+			<h5>Don't have an account? <a href="./signup.html">Sign up!</a></h5>
+		</form>
+	</div>
+
+	<script src="./index.js" type="text/javascript"></script>
+</body>
+</html>
